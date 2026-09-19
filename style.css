@@ -1,3 +1,6 @@
+<!-- It probably doesn't matter much for this assessment, but it may be a good idea in the future to put
+     your CSS file in a separate project folder. -->
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -36,6 +39,8 @@ h1 {
   color: #333;
 }
 
+<!-- I like how you created the solid border at the bottom of the h2 tags with CSS. It makes the page layout
+     flow well. -->
 h2 {
   color: #333;
   margin-top: 40px;

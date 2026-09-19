@@ -107,6 +107,8 @@
     <h2 id="position">6. Positioning</h2>
     <p>I used relative, absolute, fixed, and sticky. I explain each one below.</p>
 
+    <!-- I like how you used a box here to demonstrate positioning. I didn't think of that. Your sticky example
+         is especially good. -->
     <div class="posbox">
       <p class="rel">this text has position: relative, it's moved a little bit from where it normally would be</p>
       <span class="abs">absolute box</span>
@@ -118,6 +120,11 @@
         <p>see how the header stayed at the top? that's position sticky</p>
       </div>
     </div>
+
+    <!-- I thought this button to take you back to the top was a really cool feature.
+        However, I noticed that it drops behind the footer when you scroll to the bottom
+        of the site. One way to fix this would be to give the button a higher z-index
+        than the footer. It may also need to be a different color to differentiate it -->
     <button class="fixedbtn" onclick="window.scrollTo(0,0)">back to top (fixed)</button>
 
     <p>I used position relative and absolute together to make the footer stay at the bottom of the page
